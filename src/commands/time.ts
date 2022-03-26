@@ -3,7 +3,7 @@ import { Context } from 'koishi'
 export const name = 'time'
 
 export async function apply(ctx: Context): Promise<void> {
-  ctx.command('.time').action(({ session }) => {
+  ctx.command('eorzea.time').action(({ session }) => {
     return session?.text('.eorzea_time_now', [timeFormat(localTime2EorzeaTime(new Date()))])
   })
 }
