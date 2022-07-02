@@ -1,4 +1,3 @@
----
 commands:
   eorzea.time:
     description: Show Current Eorzea Time (ET)
