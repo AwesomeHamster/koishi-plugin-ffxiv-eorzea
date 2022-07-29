@@ -15,7 +15,7 @@ describe('eorzea', async () => {
 
   const client = app.mock.client('123')
 
-  client.mock.ctx.i18n.define('zh', {
+  app.i18n.define('zh', {
     'commands.eorzea.time.messages.eorzea_time_now': '{0}',
   })
 
