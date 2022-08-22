@@ -1,5 +1,5 @@
-import { App } from 'koishi'
 import mock from '@koishijs/plugin-mock'
+import { App } from 'koishi'
 
 import * as eorzea from '../src'
 
@@ -8,14 +8,12 @@ describe('eorzea', async () => {
   app.plugin(mock)
   app.plugin(eorzea)
 
-  before(async () => {
-    await app.start()
-  })
+  before(async () => app.start())
   after(async () => app.stop())
 
   const client = app.mock.client('123')
 
-  client.mock.ctx.i18n.define('zh', {
+  app.i18n.define('zh', {
     'commands.eorzea.time.messages.eorzea_time_now': '{0}',
   })
 
