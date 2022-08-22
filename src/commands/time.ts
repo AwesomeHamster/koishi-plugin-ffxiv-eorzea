@@ -19,9 +19,7 @@ export async function apply(ctx: Context): Promise<void> {
 const EORZEA_MULTIPLIER: number = 3600 / 175
 
 export const eorzeaTime2LocalTime = (eorzeaDate: Date): Date => {
-  const epochTicks: number = Math.round(
-    eorzeaDate.getTime() / EORZEA_MULTIPLIER,
-  )
+  const epochTicks: number = Math.round(eorzeaDate.getTime() / EORZEA_MULTIPLIER)
   const localTicks: number = epochTicks + new Date(1970, 1, 1).getTime()
   return new Date(localTicks)
 }
