@@ -1,12 +1,6 @@
 export default {
-  'de': require('./de/eorzea.yml'),
-  'en': require('./en/eorzea.yml'),
-  'es': require('./es/eorzea.yml'),
-  'fr': require('./fr/eorzea.yml'),
-  'ja': require('./ja/eorzea.yml'),
-  'ko': require('./ko/eorzea.yml'),
-  'ru': require('./ru/eorzea.yml'),
-  'zh': require('./zh/eorzea.yml'),
-  'zh-cn': require('./zh/eorzea.yml'),
-  'zh-tw': require('./zh-tw/eorzea.yml'),
+  'en': require('./en-US.yml'),
+  'ja': require('./ja-JP.yml'),
+  'zh': require('./zh-CN.yml'),
+  'zh-cn': require('./zh-CN.yml'),
 }
