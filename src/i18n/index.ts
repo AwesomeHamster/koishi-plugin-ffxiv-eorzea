@@ -1,6 +1,6 @@
 export default {
-  'en': require('./en-US.yml'),
-  'ja': require('./ja-JP.yml'),
-  'zh': require('./zh-CN.yml'),
-  'zh-cn': require('./zh-CN.yml'),
+  'en': require('./en-US/eorzea.yml'),
+  'ja': require('./ja-JP/eorzea.yml'),
+  'zh': require('./zh-CN/eorzea.yml'),
+  'zh-cn': require('./zh-CN/eorzea.yml'),
 }
