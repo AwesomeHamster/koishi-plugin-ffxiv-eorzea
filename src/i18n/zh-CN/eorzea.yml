@@ -1,4 +1,6 @@
 commands:
+  eorzea:
+    description: 最终幻想14艾欧泽亚相关指令
   eorzea.time:
     description: 显示当前艾欧泽亚时间 (ET)
     messages:

@@ -1,4 +1,6 @@
 commands:
+  eorzea:
+    description: FFXIV related commands
   eorzea.time:
     description: Show Current Eorzea Time (ET)
     messages:
