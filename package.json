@@ -80,6 +80,7 @@
   "devDependencies": {
     "@hamster-bot/eslint-config": "*",
     "@hamster-bot/prettier-config": "*",
+    "@hamster-bot/tsconfig": "^0.0.2",
     "@koishijs/plugin-mock": "^2.0.2",
     "@types/mocha": "^9.1.0",
     "@types/node": "^17.0.12",
